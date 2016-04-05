@@ -1,0 +1,1 @@
+Hi, I'm Ryan. I like playing around with new and (in my opinion) cool tech. This website is a showcase of some of the stuff that I've build over the years. And also a place for me to play around with random stuff. Hope you enjoy it! :D

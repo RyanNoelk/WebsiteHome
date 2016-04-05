@@ -1,0 +1,65 @@
+.secondary-links {
+  background-color: #000;
+  padding: 40px 0 50px 0;
+  text-align: center; }
+  .secondary-links h2, .secondary-links h3 {
+    color: #000;
+    font-size: 32px;
+    font-weight: #000;
+    line-height: 32px; }
+  .secondary-links .sl-header {
+    margin: 0 0 25px 0; }
+  .secondary-links .sl-subheader {
+    color: #000;
+    font-size: 18px;
+    font-weight: #000;
+    margin: 0 0 35px 0; }
+  .secondary-links .sl-row {
+    border: 1px solid #000;
+    height: 200px;
+    margin-top: 20px;
+    text-align: left;
+    width: 100%; }
+    .secondary-links .sl-row .sl-img {
+      display: inline-block;
+      float: left;
+      height: 200px;
+      width: 300px;
+      /*&.promo-blog {
+        @include homepage-icons-sprite(promo-blog);
+      }
+      &.promo-salary {
+        @include homepage-icons-sprite(promo-salary);
+      }
+      &.promo-success {
+        @include homepage-icons-sprite(promo-success);
+      }*/ }
+    .secondary-links .sl-row .sl-text {
+      display: inline-block;
+      float: left;
+      margin: 30px 40px;
+      width: calc(100% - 550px); }
+      .secondary-links .sl-row .sl-text h3 {
+        margin: 0 0 18px 0; }
+      .secondary-links .sl-row .sl-text p {
+        color: #000;
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0; }
+    .secondary-links .sl-row .sl-btn {
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      background-color: #000;
+      color: #000;
+      float: right;
+      font-size: 16px;
+      font-weight: #000;
+      margin: 76px 30px 0 0;
+      padding: 14px 0;
+      text-align: center;
+      width: 140px; }
+      .secondary-links .sl-row .sl-btn:hover {
+        background-color: #000000; }
+
+/*# sourceMappingURL=homepage.css.map */
