@@ -1,6 +1,3 @@
-*.pyc
-*.sqlite
-*.scss
 *.css.map
 
 .idea
