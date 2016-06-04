@@ -390,3 +390,8 @@ footer .footer-below {
   opacity: 0;
   display: none;
 }
+.tagline {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 90px;
+}
