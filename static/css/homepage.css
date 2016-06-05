@@ -390,6 +390,9 @@ footer .footer-below {
 .btn {
   margin-bottom: 10px;
 }
+.no-break {
+  display: inline-block;
+}
 
 @media (max-width: 767px) {
   .portfolio-modal .modal-content {
