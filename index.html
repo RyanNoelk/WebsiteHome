@@ -16,7 +16,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link href="static/css/freelancer.css" rel="stylesheet">
+    <link href="static/css/homepage.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
@@ -218,119 +218,111 @@
 
     <!-- Portfolio Modals -->
     <div class="portfolio-modal modal fade" id="data" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+        <div class="container modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Personal Server</h2>
-                            <hr class="star-primary">
-                            <p>I use a Rasberry Pi as a VPN server and have a RAID array with webdav</p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div class="modal-body">
+                        <h2>Personal Server</h2>
+                        <hr class="star-primary">
+                        <p>I use a Rasberry Pi as a VPN server and have a RAID array with webdav</p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="portfolio-modal modal fade" id="ladder" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+        <div class="container modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>StarCraft Ladder</h2>
-                            <hr class="star-primary">
-                            <p>This project is designed to provide a fun, competitive ranking system for a small subset of players (about 100 or less) for the game StarCraft II. For a complete listing of how the ladder works, <a href="https://ladder.ryannoelk.com/HowITWorks/">take a look at the rules</a>. Or view the project on <a href="https://github.com/RyanNoelk/ClanLadder">Github</a>.</p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a href="https://ladder.ryannoelk.com">Season 1</a>
-                                    </strong>
-                                </li>
-                                <li>
-                                    <strong><a href="https://season1.ryannoelk.com">Season 2</a>
-                                    </strong>
-                                </li>
-                                <li>
-                                    <strong><a href="https://github.com/RyanNoelk/ClanLadder">View on Github</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1 ">
+                    <div class="modal-body">
+                        <h2>StarCraft Ladder</h2>
+                        <hr class="star-primary">
+                        <p>This project is designed to provide a fun, competitive ranking system for a small subset of players (about 100 or less) for the game StarCraft II. For a complete listing of how the ladder works, <a href="https://ladder.ryannoelk.com/HowITWorks/">take a look at the rules</a>. Or view the project on <a href="https://github.com/RyanNoelk/ClanLadder">Github</a>.</p>
+                        <ul class="list-inline item-details">
+                            <li>
+                                <a class="btn btn-primary" href="https://season1.ryannoelk.com"><strong>View Season 1</strong></a>
+                            </li>
+                            <li>
+                                <a class="btn btn-primary" href="https://ladder.ryannoelk.com"><strong>View Season 2</strong></a>
+                            </li>
+                            <li>
+                                <a class="btn btn-primary" href="https://github.com/RyanNoelk/ClanLadder"><strong><i class="fa fa-github fa-fw"></i>View on Github</strong></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="visible-xs">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="portfolio-modal modal fade" id="sudoku" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+        <div class="container modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Sudoku Web App</h2>
-                            <hr class="star-primary">
-                            <p>This is a simple Django sudoku web app. It contains two core pieces. Python classes that generate, solve, and check any x by x (square) sudoku puzzle. UI constructed with Bootstrap and jQuery. The app will generate random puzzles and store them within a DB to be served to the user. The libraries can be used in a standalone mode to generate or solve any square sudoku puzzle!
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a href="https://sudoku.ryannoelk.com">Play Sudoku!</a>
-                                    </strong>
-                                </li>
-                                <li>
-                                    <strong><a href="https://github.com/RyanNoelk/Sudoku">View on Github</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="modal-body">
+                        <h2>Sudoku Web App</h2>
+                        <hr class="star-primary">
+                        <p>This is a simple Django sudoku web app. It contains two core pieces. Python classes that generate, solve, and check any x by x (square) sudoku puzzle. UI constructed with Bootstrap and jQuery. The app will generate random puzzles and store them within a DB to be served to the user. The libraries can be used in a standalone mode to generate or solve any square sudoku puzzle!
+                        </p>
+                        <ul class="list-inline item-details">
+                            <li>
+                                <a class="btn btn-primary" href="https://sudoku.ryannoelk.com"><strong>Play Sudoku!</strong></a>
+                            </li>
+                            <li>
+                                <a class="btn btn-primary" href="https://github.com/RyanNoelk/Sudoku"><strong><i class="fa fa-github fa-fw"></i>View on Github</strong></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="visible-xs">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="portfolio-modal modal fade" id="homepage" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
+        <div class="container modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>My Homepage</h2>
-                            <hr class="star-primary">
-                            <p>Hi, I'm Ryan. I like playing around with new and, in my opinion, cool tech. This website is a showcase of some of the stuff that I've built over the years. It's also a place for me to play around with random stuff. I've been working in the tech industry for several years now. My focus is on UI and web development, as well as optimizing sites for high availability with millions of users. Be sure to check out my projects.</p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a href="https://github.com/RyanNoelk/WebsiteHome">View on Github</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="modal-body">
+                        <h2>My Homepage</h2>
+                        <hr class="star-primary">
+                        <p>Hi, I'm Ryan. I like playing around with new and, in my opinion, cool tech. This website is a showcase of some of the stuff that I've built over the years. It's also a place for me to play around with random stuff. I've been working in the tech industry for several years now. My focus is on UI and web development, as well as optimizing sites for high availability with millions of users. Be sure to check out my projects.</p>
+                        <ul class="list-inline item-details">
+                            <li>
+                                <a class="btn btn-primary" href="https://github.com/RyanNoelk/WebsiteHome"><strong><i class="fa fa-github fa-fw"></i>View on Github</strong></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="visible-xs">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
             </div>
@@ -349,7 +341,7 @@
     <script src="static/js/cbpAnimatedHeader.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="static/js/freelancer.js"></script>
+    <script src="static/js/homepage.js"></script>
 
 </body>
 
